@@ -257,7 +257,7 @@ install_sprov-ui() {
     echo -e "wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/sprov065/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui"
     echo -e ""
     echo -e "若未安装 bbr 等加速工具，推荐使用以下命令一键安装 bbr："
-    echo -e "wget "https://github.com/LuisLIn666/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh"
+    echo -e "wget "https://raw.githubusercontent.com/foxbackup/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh"
     echo -e ""
 }
 
